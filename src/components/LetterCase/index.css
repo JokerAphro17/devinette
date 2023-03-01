@@ -1,0 +1,94 @@
+.letter-case{
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #000;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    
+}
+
+.game__body_table{
+
+   
+    
+}
+.table__container{
+
+}
+.game__body_message{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+
+#table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-left: 50px;
+    width: 20%;
+    font-size: 10px;
+  }
+  
+  #table td, #table th {
+    border: 1px solid #ddd;
+    padding: 5px;
+    
+  }
+  
+  #table tr:nth-child(even){background-color: #a0effd;}
+  
+  #table tr:hover {background-color: #ddd;}
+
+  #table:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: all 0.3s ease;
+    transform: scale(1.01);
+    }
+  
+  #table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  .button-yellow{
+   
+    cursor: pointer !important;
+  }
+ 
+  
+  .success{
+    color: green;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+  }
+
+  .error{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+  }
+  
+.letter-case:hover{
+    border: 1px solid rgb(182,157,230); 	
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #000;
+    width: 60px;
+    background: rgb(182,157,230);
+    color: #fff;
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+
+}
